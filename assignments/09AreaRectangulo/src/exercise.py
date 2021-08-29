@@ -1,7 +1,10 @@
-
 def main():
-    #escribe tu código abajo de esta línea
-    pass
+    return()
 
-if __name__=='__main__':
-    main()
+# area = width x length
+# volume = width x length x height
+
+width = float(input("Insert width: "))
+length = float(input("Insert length: "))
+
+print("Rectangle's area is: ", width*length)
